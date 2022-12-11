@@ -43,7 +43,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var restaxy = y - x;
+  var restaxy = x - y;
   return restaxy
   
 }
@@ -59,7 +59,7 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  var divisionxy = x/y;
+  var divisionxy = x / y;
   return divisionxy
   
 }
