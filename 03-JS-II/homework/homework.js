@@ -166,8 +166,8 @@ function operadoresLogicos(num1, num2, num3) {
   if(num1 <0 || num2 <0 || num3<0){
     return 'Hay negativos';
   }
-  else if(num1 === 0 || num2 === 0||num3===0){
-    'Error'
+  else if(num1 === 0 || num2 === 0|| num3 === 0){
+    return 'Error'
   }
   else if (num3>num1 && num3 > num2){
     return num3+1
@@ -189,7 +189,6 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-  if (numero !==0 || numero !== 1){ 
   for(var i=2; i<numero;i++){
     if (numero % i  === 0) {
       return 'falso';
@@ -198,8 +197,7 @@ function esPrimo(numero) {
       return 'true'
     }
   }
-}
-return 'Los números 0 y 1 NO son considerados números primos'
+
 }
 
 function esVerdadero(valor){
