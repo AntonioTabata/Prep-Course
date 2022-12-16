@@ -23,6 +23,12 @@ function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
+  if (edad>=18){
+    return 'Allowed';
+  }
+  else{
+    return 'Not allowed'
+  }
 }
   
 function conection(status) {
@@ -31,6 +37,13 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
+  if (status===1){
+    return 'Online'
+  }
+  else if(status===2){
+    return 'Away'
+  }
+  return 'Offline'
 }
 
 function saludo(idioma) {
@@ -40,6 +53,21 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  switch (idioma) {
+    case 'aleman':
+      return 'Guten Tag!';
+      break;
+    case 'mandarin':
+      return 'Ni Hao!';
+      break;
+    case 'ingles':
+      return 'Hello!'
+      break  
+  
+    default:
+      return 'Hola!'
+      break;
+  }
 }
 
 function colors(color) {
