@@ -14,6 +14,9 @@ function obtenerMayor(x, y) {
   else if(x===y && x === Math.trunc(x)){
     return x
   }
+  else {
+    return 'numero fuera del rango'
+  }
 }
 
 function mayoriaDeEdad(edad) {
