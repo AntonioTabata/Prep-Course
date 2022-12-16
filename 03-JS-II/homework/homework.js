@@ -193,6 +193,7 @@ function esPrimo(numero) {
     if ((numero % i)  !== 0) {
       return true;
     }
+    else ((numero % i)  === 0)
       return false;
     
   }
