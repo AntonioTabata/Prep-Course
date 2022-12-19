@@ -216,7 +216,6 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
 var tabla = []
 for (var i=0; i<=10; i++){
-  var resultadoproducto = 6 * i;
   tabla.push(6*i);
 }
   return tabla
