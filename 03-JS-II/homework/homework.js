@@ -192,14 +192,11 @@ function esPrimo(numero) {
 if (numero <2) return false;
 if (numero === 2) return false;
 for (var i=2 ; i < numero; i++)  {
-  if (numero % i === 0) {
-    return false;
-  } 
-  else{
-    return true;
-  }
-}
+  if (numero % i === 0) return false;
 
+  
+}
+return true;
 }
 
 function esVerdadero(valor){
