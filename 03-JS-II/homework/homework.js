@@ -191,7 +191,7 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
 if (numero <2) return false;
 if (numero === 2) return false;
-for (var = 2 ; i <= numero - 1 ; i++) {
+for (var i=2 ; i <= numero - 1 ; i++)  {
   if (numero % i === 0) return false;
 
 }
