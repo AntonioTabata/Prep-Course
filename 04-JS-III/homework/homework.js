@@ -3,12 +3,15 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+  return array.shift()
 }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
+  var copia = array;
+  return copia.pop()
 }
 
 
@@ -63,7 +66,7 @@ function agregarNumeros(numeros) {
   // Tu código:
 }
 
-
+var a
 function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
@@ -75,7 +78,7 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-}
+} []
 
 
 function multiplicarArgumentos() {
